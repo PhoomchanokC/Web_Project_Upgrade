@@ -1,0 +1,90 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  font-family: "Noto Sans Thai, sans-serif";
+}
+
+.tab_bar_sell{
+  border-bottom: 5px solid #10407288;
+  background-color: white;
+  width: 50vh;
+  height: 5vh;
+}
+
+.tab_bar_sell.active::before{
+
+  border-bottom: 5px solid #258cfb;
+  background-color: white;
+  width: 50vh;
+  height: 5vh;
+}
+
+.tab_bar_sell.active{
+  transition: 1000ms;
+  border-bottom: 5px solid #258cfb;
+  background-color: white;
+  width: 50vh;
+  height: 5vh;
+}
+
+.tab_box{
+  border-bottom: #258cfb 1px solid;
+}
+
+.tabcontent{
+  display: none;
+
+}
+
+.tabcontent.active{
+  display: block;
+}
+
+.recommend_all{
+  display: none;
+}
+
+.recommend_all.active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new_all{
+  display: none;
+}
+
+.new_all.active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.top_all{
+  display: none;
+}
+
+.top_all.active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
